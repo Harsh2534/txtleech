@@ -32,14 +32,14 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ ❖ 𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭 & 𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵𝗚𝗼𝘀𝘄𝗮𝗺𝗶𝟮𝟰 ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /upload Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /upload Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭 ✜" ,url=f"https://t.me/Opleech_WD") ],
+                    InlineKeyboardButton("✜ UPDATES✜" ,url=f"https://t.me/MoviesUpdate_07") ],
                     [
-                    InlineKeyboardButton("✜ 𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵𝗚𝗼𝘀𝘄𝗮𝗺𝗶𝟮𝟰 ✜" ,url="https://t.me/AshutoshGoswami24") ],
+                    InlineKeyboardButton("✜ SUPPORT ✜" ,url="https://t.me/MoviesUpdate_chat") ],
                     [
-                    InlineKeyboardButton("✜ 𝗥𝗮𝗽𝗼 ✜" ,url="https://github.com/AshutoshGoswami24/text-leech-bot") ]                               
+                    InlineKeyboardButton("✜ DEVELOPER ✜" ,url="https://t.me/Anonymousdeveloper098") ]                               
             ]))
 
 
